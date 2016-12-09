@@ -1,0 +1,41 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script>
+            document.getElementById(window).load(function (){console.log("window.load")});
+            function check(){
+                console.log("check");
+            }
+        </script>
+    </head>
+    <body>       
+ 
+            <table>
+                <tr>
+                    <td>帳號：</td>                
+                    <td><input id="username" type="text"/></td>
+                </tr>
+                <tr>           
+                    <td>密碼：</td>                
+                    <td><input id="password" type="text"/></td>
+                </tr>
+                <tr>           
+                    <td>再次確認密碼：</td>                
+                    <td><input id="password" type="text"/></td>
+                </tr>
+                <tr>
+                    <td><button id="regist" onclick="check()">regist</button></td>
+                </tr>
+            </table>
+
+        
+    </body>
+
+
+</html>

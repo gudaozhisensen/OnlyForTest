@@ -1,0 +1,34 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <form id='login'>
+            帳號:<input id="username" value="default" type="text"/>
+            <br/>
+            <br/>
+            密碼:<input id="password" value="123456" type="password"/>
+            <br/>
+            &nbsp;      
+            <div  id="button">
+                <input onclick="login()" type="button" value="登錄"/>      
+                &nbsp;       
+                <input type="button" value="註冊"/>            
+                &nbsp;       
+                <input type="button" value="忘記密碼"/>
+            </div>
+        </form>
+    </body>
+    <script>
+        function login(){            
+            console.log("login : "+document.getElementById("username").value+document.getElementById("password").value);
+        }
+    </script>
+
+</html>
